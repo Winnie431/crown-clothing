@@ -11,19 +11,19 @@ class Directory extends Component{
                 {
                     title: 'Hats',
                     imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-                    id: 1
+                    id: 1                    
                     
                   },
                   {
                     title: 'Jackets',
                     imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
                     id: 2
-                
+                               
                 },
                 {
                     title: 'Sneakers',
                     imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
-                    id: 3
+                    id: 3                    
                 
                 },
                 {
@@ -31,14 +31,14 @@ class Directory extends Component{
                     imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
                     id: 4,
                     size: "large"
-                
+                               
                 },
                 {
                     title: 'Men',
                     imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
                     id: 5,
                     size: "large"
-                
+                   
                 }
             ]
         }
@@ -50,7 +50,7 @@ class Directory extends Component{
         return(
             <div className="directory-menu">
                {this.state.sections.map(({title, imageUrl, id,size}) =>(
-                 <MenuItem  key={id} title={title} image={imageUrl} size={size}/>
+                 <MenuItem  key={id} title={title} image={imageUrl} size={size} />
                )) 
                }
                 
