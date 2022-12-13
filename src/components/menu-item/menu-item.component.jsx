@@ -4,7 +4,7 @@ import { useNavigate} from "react-router-dom";
 
 
 
-const MenuItem = ({ title,image,size,linkUrl}) => {
+const MenuItem = ({ title,imageUrl,size,linkUrl}) => {
   
   const navigate = useNavigate();
  
@@ -14,7 +14,7 @@ const MenuItem = ({ title,image,size,linkUrl}) => {
       <div 
         className="background-image"
         style={{
-          backgroundImage: `url(${image})`,
+          backgroundImage:`url(${imageUrl})`,
         }}
         //'/hats'
       />
