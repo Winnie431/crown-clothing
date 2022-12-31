@@ -1,14 +1,17 @@
 .header {
-    height: 70px;
+    height: 100px;
     width: 90%;
     display: flex;
     justify-content:space-between;
-    margin-bottom: 25px;
+    margin-bottom: -30px;
+    margin-top:-20px;
   
     .logo-container {
       height: 100%;
       width: 70px;
       padding-left: 10%;
+    
+      
     }
   
     .options {
