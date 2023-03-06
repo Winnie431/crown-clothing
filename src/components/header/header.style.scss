@@ -3,15 +3,15 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: -30px;
-  margin-top: -20px;
+  //margin-bottom: -10px;
+  //margin-top: -10px;
 
-  .logo-container {
+  
+  .logo {
     height: 100%;
     width: 70px;
-    padding-left: 10%;
+    margin-left: 70%;
     
-
   }
 
   .options {
@@ -23,11 +23,12 @@
 
     .option {
       padding: 10px 15px;
+      font-weight: 500;
       cursor: pointer;
       //color: red;
       background-image: linear-gradient(to right,
-          #54b3d6,
-          #54b3d6 50%,
+          #f5c13e,
+          #eec11e 50%,
           #000 50%);
       background-size: 200% 100%;
       background-position: -100%;
@@ -41,7 +42,7 @@
 
     .option::before {
       content: '';
-      background: #54b3d6;
+      background: #f5c13e;
       display: block;
       position: absolute;
       bottom: -3px;
