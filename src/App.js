@@ -28,11 +28,11 @@ class App extends React.Component {
       if (userAuth) {
         //if user is signIn
         const userRef = await createUserProfileDocument(userAuth);
-        // console.log('userAuth :>> ', userAuth);
+         console.log('userAuth :>> ', userAuth);
 
         //we check if our db has updated any data at that reference
         userRef.onSnapshot((snapShot) => {
-          console.log('snapShot :>> ', snapShot.data());
+          //console.log('snapShot :>> ', snapShot.data());
           this.setState({
             currentUser: this.state.currentUser = {
               id: snapShot.id,
